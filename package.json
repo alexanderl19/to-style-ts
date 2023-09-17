@@ -2,8 +2,12 @@
   "name": "to-style-ts",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build": "tsup"
+  },
   "devDependencies": {
     "bun-types": "latest",
+    "tsup": "^7.2.0",
     "typescript": "^5.0.0"
   },
   "dependencies": {
