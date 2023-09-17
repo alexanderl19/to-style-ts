@@ -1,0 +1,12 @@
+{
+  "name": "to-style-ts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "csstype": "^3.1.2"
+  }
+}
