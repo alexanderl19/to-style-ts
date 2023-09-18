@@ -1,6 +1,6 @@
 {
   "name": "to-style-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert react-like style objects to css style strings.",
   "license": "MIT",
   "author": "Alexander Liu <a@alexanderliu.com>",
@@ -11,11 +11,10 @@
   "type": "module",
   "exports": {
     "types": "./dist/index.d.ts",
-    "import": "./dist/index.mjs",
-    "require": "./dist/index.js"
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
   },
   "main": "dist/index.js",
-  "module": "dist/index.mjs",
   "scripts": {
     "build": "tsup"
   },
